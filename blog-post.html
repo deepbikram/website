@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <title>Blog - DEEP BIKRAM THAPA CHHETRI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Template Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+
+    <!-- Template CSS Files -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/preloader.min.css" rel="stylesheet">
+    <link href="css/circle.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/fm.revealator.jquery.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- CSS Skin File -->
+    <link href="css/skins/yellow.css" rel="stylesheet">
+
+    <!-- Live Style Switcher - demo only -->
+    <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css" />
+    <link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellow" href="css/skins/yellow.css" />
+    <link rel="alternate stylesheet" type="text/css" title="blueviolet" href="css/skins/blueviolet.css" />
+    <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="css/skins/goldenrod.css" />
+    <link rel="alternate stylesheet" type="text/css" title="magenta" href="css/skins/magenta.css" />
+    <link rel="alternate stylesheet" type="text/css" title="orange" href="css/skins/orange.css" />
+    <link rel="alternate stylesheet" type="text/css" title="purple" href="css/skins/purple.css" />
+    <link rel="alternate stylesheet" type="text/css" title="red" href="css/skins/red.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="css/skins/yellowgreen.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
+
+    <!-- Modernizr JS File -->
+    <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body class="blog-post">
+<!-- Live Style Switcher Starts - demo only -->
+<div id="switcher" class="">
+    <div class="content-switcher">
+        <h4>STYLE SWITCHER</h4>
+        <ul>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('purple');" title="purple" class="color"><img src="img/styleswitcher/purple.png" alt="purple"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('red');" title="red" class="color"><img src="img/styleswitcher/red.png" alt="red"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('blueviolet');" title="blueviolet" class="color"><img src="img/styleswitcher/blueviolet.png" alt="blueviolet"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('blue');" title="blue" class="color"><img src="img/styleswitcher/blue.png" alt="blue"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('goldenrod');" title="goldenrod" class="color"><img src="img/styleswitcher/goldenrod.png" alt="goldenrod"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('magenta');" title="magenta" class="color"><img src="img/styleswitcher/magenta.png" alt="magenta"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('yellowgreen');" title="yellowgreen" class="color"><img src="img/styleswitcher/yellowgreen.png" alt="yellowgreen"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('orange');" title="orange" class="color"><img src="img/styleswitcher/orange.png" alt="orange"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('green');" title="green" class="color"><img src="img/styleswitcher/green.png" alt="green"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('yellow');" title="yellow" class="color"><img src="img/styleswitcher/yellow.png" alt="yellow"/></a>
+            </li>
+        </ul>
+
+       <div id="hideSwitcher">&times;</div>
+    </div>
+</div>
+<div id="showSwitcher" class="styleSecondColor"><i class="fa fa-cog fa-spin"></i></div>
+<!-- Live Style Switcher Ends - demo only -->
+<!-- Header Starts -->
+<header class="header" id="navbar-collapse-toggle">
+    <!-- Fixed Navigation Starts -->
+    <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
+        <li class="icon-box">
+            <i class="fa fa-home"></i>
+            <a href="index.html">
+                <h2>Home</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fa fa-user"></i>
+            <a href="about.html">
+                <h2>About</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fa fa-briefcase"></i>
+            <a href="portfolio.html">
+                <h2>Portfolio</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fa fa-envelope-open"></i>
+            <a href="contact.html">
+                <h2>Contact</h2>
+            </a>
+        </li>
+        <li class="icon-box active">
+            <i class="fa fa-comments"></i>
+            <a href="blog.html">
+                <h2>Blog</h2>
+            </a>
+        </li>
+    </ul>
+    <!-- Fixed Navigation Ends -->
+    <!-- Mobile Menu Starts -->
+    <nav role="navigation" class="d-block d-lg-none">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul class="list-unstyled" id="menu">
+                <li><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
+                <li><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
+                <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
+                <li><a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
+                <li class="active"><a href="blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Mobile Menu Ends -->
+</header>
+<!-- Header Ends -->
+<!-- Page Title Starts -->
+<section class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
+    <h1>my <span>blog</span></h1>
+    <span class="title-bg">posts</span>
+</section>
+<!-- Page Title Ends -->
+<!-- Main Content Starts -->
+<section class="main-content revealator-slideup revealator-once revealator-delay1">
+    <div class="container">
+        <div class="row">
+            <!-- Article Starts -->
+            <article class="col-12">
+                <!-- Meta Starts -->
+                <div class="meta open-sans-font">
+                    <span><i class="fa fa-user"></i> steve</span>
+                    <span class="date"><i class="fa fa-calendar"></i> 9 January 2017</span>
+                    <span><i class="fa fa-tags"></i> wordpress, business, economy, design</span>
+                </div>
+                <!-- Meta Ends -->
+                <!-- Article Content Starts -->
+                <h1 class="text-uppercase text-capitalize">Everything You Need to Know About Web Accessibility</h1>
+                <img src="img/blog/blog-post-1.jpg" class="img-fluid" alt="Blog image"/>
+                <div class="blog-excerpt open-sans-font pb-5">
+                    <p>Focusing on customer retention is a valuable long-term solution for increased revenue and sustainable growth, but it’s not always easy to cultivate that kind of loyalty.</p>
+                    <p>When I think about the brands I like best, like J. Crew, Spotify, and SoulCycle, I know I’m not a loyal brand advocate because of their products alone. I can get cheaper clothes, music, and groceries from plenty of other places. Ultimately, I’m a brand advocate because I believe in what they promote and I feel invested in their stories, like SoulCycle’s: “We aspire to inspire. We inhale intention and exhale expectation.” I relate to their brand messaging.</p>
+                    <p>In short, I subscribe to their emails to get value.
+
+                        If you’re starting from zero, building an impressive email list can feel like an impossible feat. Here, we'll cover some high-quality strategies to build an email list from scratch. Best of all, these strategies are designed to cultivate a loyal email subscriber base, so you can use your emails to attract better long-term customers. One of the ways J. Crew, Spotify, and SoulCycle cultivate customer loyalty is through valuable content. While there are many ways to do this, email marketing is one of the most powerful ways to reach your target audience -- if done correctly.</p>
+                        <p>
+                            1. Create a personalized CTA (call-to-action) for each blog or landing page.
+HubSpot has found personalized calls-to-action have a 42% higher view-to-submission rate than calls-to-action that are the same for all visitors -- that’s almost double your potential email subscribers.
+
+It makes sense: the people who visit your blog post or web page are looking for something specific, so your CTA needs to meet those unique needs. For instance, if you’ve got a ton of traffic visiting your “List-Building Strategy” blog article, why not entice those people to subscribe to your email list by including a simple CTA like this: “Click here to download a free list-building toolkit.”
+
+Of course, personalized CTAs only work if you have the resources to create that quality content in the first place, but that process doesn’t have to be expensive or time-consuming. Instead of a toolkit, you could also offer an e-book, a fun quiz, or an exclusive article from your CEO on list-building strategies.
+
+If you offer content directly related to your visitor’s needs, your email newsletter won’t feel like a gimmicky advertisement. Instead, it will feel helpful and valuable -- key principles for a long-term customer retention plan.
+
+<br>
+<br>
+<br>
+2. Create a pop-up or slide-in for each page of your site.
+A pop-up might sound initially bothersome, but I’m not talking about those early 2000 pop-up’s that promised you’d “Become a Model NOW”.
+
+Instead, I’m talking about timed pop-up ads, or onsite retargeting. After a user spends a certain amount of time on your page, she can receive a pop-up relevant to the content on that page, or to her behavior. Examples include exit pop-ups, which appear when a user tries to leave the page, or scroll pop-ups, which appear after the user scrolls a certain percentage down the page.
+
+Digital Marketer conducted a case study to determine the value of onsite retargeting. For one experiment in particular, Digital Marketer introduced a pop-up ad to returning visitors only, which appeared after a visitor spent 15 seconds on their site:
+
+
+Digital Marketer ensured this pop-up didn’t show up if someone came to the page from the newsletter (in which case, they were already signed up), and also didn’t pop-up on a sales page (which could interrupt someone’s purchasing decision).
+
+As you can see, Digital Marketer also took the time to offer meaningful content, a digital marketing toolbox, in their pop-up ad. With an impressive offer, your pop-up is no longer obtrusive or interruptive -- it’s simply helpful.
+
+Ultimately, their campaign generated 2,689 leads in two weeks, and increased their average time on page by 54%. Pop-ups aren’t always gimmicky, and if done right, you’re able to appeal to your visitor with quality content when and where they need it.
+
+
+<br>
+<br>
+<br>
+
+3. Create a timed pop-up survey.
+Most people don’t visit a new website and think, “Huh, so where’s the email sign-up form?” Often times, you need your viewers to feel invested in your content before you present them with a request for their emails.
+
+To build your email list, you might want to reach out to visitors on specific pages with surveys related to that content. I’m more willing to answer an “A or B” survey question if I’m already invested in the content -- it feels like a fairer trade-off.
+
+For instance, University of Alberta’s email subscriber list grew almost 500% in one year alone, thanks to a timed pop-up survey they implemented:
+
+
+The University of Alberta’s pop-up survey only appears after a visitor remains on a news’ page for 10 seconds. At that point, the viewers’ seen some value from the content, so ideally they’re more inclined to sign up for emails from the source.
+
+The University of Alberta’s survey pop-up is also one of the easiest forms I’ve ever seen. You enter your email and you’re done. People are often deterred from signing up when the form is too long and they don’t have the time, so a simple yes or no question might be your best bet for growing your email list.
+
+<br><br><br>
+4. Use humor or sarcasm in your CTA’s “no, thanks” copy.
+We’re so infiltrated with “Yes or No” web offers on a daily basis, we barely see them anymore. To increase your email lists, you might want to try injecting some personality into your CTA copy.
+
+I always pause and laugh when I see a CTA with a small, “No thanks, I don’t want to lose weight,” button underneath a prominent “Yes, sign me up!” link. It reminds me there’s a person behind the button, and, while it’s meant to be a joke, it also incentivizes me to hesitate before clicking “no, thanks”. It’s easy to click “no” when the CTA is “sign up for more emails!”, but it’s a little harder to say no to losing weight or getting richer.
+
+I was reading an Optimonk blog post recently, and this CTA popped up:
+
+
+I was all set to click “No” without another thought, when I read the “my business isn’t important” part. It gave me pause, made me laugh, and, most importantly, made me reconsider my almost immediate decision to exit the offer.
+
+
+                        </p>
+                </div>
+                <!-- Article Content Ends -->
+            </article>
+            <!-- Article Ends -->
+        </div>
+    </div>
+</section>
+<!-- Template JS Files -->
+<script src="js/jquery-3.5.0.min.js"></script>
+<script src="js/styleswitcher.js"></script>
+<script src="js/preloader.min.js"></script>
+<script src="js/fm.revealator.jquery.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpGridGallery.js"></script>
+<script src="js/jquery.hoverdir.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+
+
+</html>
